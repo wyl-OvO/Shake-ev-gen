@@ -1,4 +1,5 @@
 # Shaking Image to Generate Event Stream
+将图像数据集简易生成伪事件
 
 流程两步串联：
 1. 对参考图像做位移抖动
