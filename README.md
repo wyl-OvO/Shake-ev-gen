@@ -1,10 +1,10 @@
-# Shaking Image to Generate Event Stream Pipeline
+# Shaking Image to Generate Event Stream
 
 流程两步串联：
 1. 对参考图像做位移抖动
 2. 基于原图 + 抖动图生成event
 
-## 参考图像放置位置
+## Reference image
 
 请把参考图像放在 `imgs/` 目录下，例如：
 
@@ -13,7 +13,7 @@
 
 支持的后缀：`.png`、`.jpg`、`.jpeg`、`.bmp`
 
-## 移动（Shake）超参数
+## Super Param
 
 位移相关参数在 `shaking-dynamic.py` 中：
 
@@ -23,7 +23,7 @@
 
 改抖动强度直接修改shift即可。
 
-## 输出位置
+## Output
 
 - 抖动图输出到：`shaked_imgs/<样本名>/`
   - 例如：`shaked_imgs/example/0.jpg`
@@ -32,7 +32,7 @@
   - `*_ev.npy`：事件流
   - `*.gif`：可视化动图
 
-## 运行方式
+## Excution
 直接运行主脚本：
 
 ```bash
