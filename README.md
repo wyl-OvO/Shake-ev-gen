@@ -1,8 +1,8 @@
 # Shaking Image to Generate Event Stream Pipeline
 
-这个工程的流程是两步串联：
-1. 对参考图像做位移抖动（shake）
-2. 基于原图 + 抖动图生成事件数据（event）
+流程两步串联：
+1. 对参考图像做位移抖动
+2. 基于原图 + 抖动图生成event
 
 ## 参考图像放置位置
 
